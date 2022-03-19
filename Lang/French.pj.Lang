@@ -5,7 +5,7 @@
 #1  #  "Français"		                                // LANGUAGE ID
 #2  #  "Benjamin Siskoo, corrections par Adri1"			// Author
 #3  #  "3.0"			                                  // Version
-#4  #  "19 janvier 2022"		                        // Date
+#4  #  "13 mars 2022"		                        // Date
 
 //About DLL Dialog
 #5  #  "Langue actuelle"
@@ -30,7 +30,7 @@
 #103#  "Démarrer l’émulation"
 #104#  "Arrêter l’émulation"
 #105#  "Choisir le répertoire des ROM…"
-#106#  "Rafraîchir la liste des ROM"
+#106#  "Rafraichir la liste des ROM"
 #107#  "ROM récentes"
 #108#  "Répertoires des ROM récentes"
 #109#  "&Quitter"
@@ -42,12 +42,12 @@
 #122#  "&Pause"
 #123#  "&Capture d’écran"
 #124#  "Limiter les FPS"
-#125#  "&Sauvegarder l’état"
+#125#  "&Sauvegarde d’état"
 #126#  "Sauvegarder sous…"
-#127#  "&Charger un état"
+#127#  "&Charger sauvegarde d’état"
 #128#  "Charger…"
-#129#  "Sauvegarder l’&état actuel"
-#130#  "Cheats…"
+#129#  "Sauvegarde d’&état actuelle"
+#130#  "Codes de triche…"
 #131#  "Bouton GameShark (cheats)"
 #132#  "R&eprendre"
 #133#  "Redémarrage &logiciel"
@@ -77,10 +77,10 @@
 #182#  "À &propos de Project64"
 #184#  "Site &web"
 #185#  "&Soutenir Project64"
-#186#  "&Discord"
+#186#  "&Serveur Discord"
 
 //Current Save Slot menu
-#190#  "Défaut"
+#190#  "Par défaut"
 #191#  "Emplacement 1"
 #192#  "Emplacement 2"
 #193#  "Emplacement 3"
@@ -241,22 +241,22 @@
 #466#  "Vitesse affichée :"
 #467#  "Vérifier si Project64 est déjà lancé"
 #468#  "Répertoire de sauvegarde unique"
-#469#  "Chemin de ROM 64DD IPL Japonaise:"
-#470#  "Chemin de ROM 64DD IPL Américaine:"
-#471#  "Chemin de ROM 64DD IPL ROM de développement:"
+#469#  "Chemin de ROM 64DD IPL Japonaise :"
+#470#  "Chemin de ROM 64DD IPL Américaine :"
+#471#  "Chemin de ROM 64DD IPL de développement :"
 #472#  "Type de sauvegarde:"
 #473#  "Activer améliorations"
 #474#  "Afficher la barre de statut"
 #475#  "Quitter le plein écran si le logiciel n'est plus en avant"
-#476#  "Activer Discord Rich Presence"
+#476#  "Autoriser Project64 dans votre statut Discord"
 
 //ROM Browser Tab
-#480#  "Max de ROM à retenir (0-10) :"
-#481#  "ROM"
-#482#  "Max de répertoires ROM à retenir (0-10) :"
+#480#  "Nb. max de ROMs à retenir (0-10) :"
+#481#  "ROMs"
+#482#  "Nb. max de répertoires ROM à retenir (0-10) :"
 #483#  "répertoires"
 #484#  "Utiliser le navigateur de ROM"
-#485#  "Utiliser également les sous-répertoires"
+#485#  "Inclure les sous-répertoires"
 #486#  "Champs disponibles :"
 #487#  "Champs dans l’ordre :"
 #488#  "Ajouter ->"
@@ -281,7 +281,7 @@
 #512#  "Lancer si modifié"
 #513#  "Protéger la mémoire"
 #514#  "TLB unmapping"
-#515#  "TOujours utiliser l'interpréteur de cœur"
+#515#  "Toujours utiliser l'interpréteur de cœur"
 
 //ROM Options
 #520#  "Style de noyau CPU :"
@@ -297,8 +297,8 @@
 #530#  "SP rapide"
 #531#  "Défaut"
 #532#  "Signal audio RSP"
-#533#  "Correction du timing audio"
-#534#  "Méthode de recherche de fonctions :"
+#533#  "Correc. du timing audio"
+#534#  "Métho. de recherche de fonctions :"
 #535#  "Méthode self mod personnalisée"
 #536#  "Synchronisation audio"
 #537#  "Compteur AI par octet"
@@ -307,7 +307,7 @@
 
 //Core Styles
 #540#  "Interpréteur"
-#541#  "Recompilateur"
+#541#  "Recompileur"
 #542#  "Synchroniser les noyaux"
 
 //Self Mod Methods
@@ -350,9 +350,9 @@
 // Accelerator Selector
 #680#  "État du CPU :"
 #681#  "Menu objet :"
-#682#  "Touches actuelles :"
+#682#  "Touches :"
 #683#  "Sélectionner nouveau raccourci :"
-#684#  "Actuellement assigné à :"
+#684#  "Déjà assigné à :"
 #685#  "Assigner"
 #686#  "Supprimer"
 #687#  "Tout réinitialiser"
@@ -360,20 +360,20 @@
 #689#  "Un jeu est lancé"
 #690#  "Un jeu est lancé (Fenêtré)"
 #691#  "Un jeu est lancé (Plein écran)"
-#692#  "Détecter la touche"
+#692#  "Détecter touche"
 
 // Frame Rate Option
-#700#  "Interruptions verticales par seconde"
-#701#  "Listes d’affichage par seconde"
-#702#  "Pourcentage de la vitesse de base"
+#700#  "Interruptions verticales/sec."
+#701#  "Listes d’affichage/seconde"
+#702#  "% de la vitesse de base"
 
 // Increase speed
 #710#  "Augmenter la vitesse du jeu"
 #711#  "Diminuer la vitesse du jeu"
 
 //Bottom page buttons
-#720#  "Réinitialiser la page"
-#721#  "Tout réinitialiser"
+#720#  "Réiniti. Page"
+#721#  "Réiniti. Tout"
 #722#  "Appliquer"
 #723#  "Fermer"
 
@@ -461,7 +461,7 @@
 * Support Window                                                                 *
 *********************************************************************************/
 #1200#  "Support Project64"
-#1201#  "Project64 est un émulateur open source de Nintendo 64.\n\nCelui-ci vous permet de jouer à des jeux N64 comme vous le feriez avec la vraie console.\n\nJe suis désolé de vous déranger avec cet encart, mais merci à vous de patienter quelques secondes dans le but d'apprécier le résultat de centaines d'heures de travail.\n\nSi vous le pouvez et le désirez soutenir Project64 ou en avez tiré quelque chose de son usage, merci de soutenir le projet soit avec de simples remerciments, ou votre volonter de supprimer cet encartn\n\nSi vous avez soutenu Project64 :"
+#1201#  "Project64 est un émulateur open source de Nintendo 64.\n\nCelui-ci vous permet de jouer à des jeux N64 comme vous le feriez avec la vraie console.\n\nPardonnez-nous vous déranger avec cet encart, mais nous vous prions de bien vouloir patienter quelques secondes dans le but d'apprécier le résultat de centaines d'heures de travail.\n\nSi vous le pouvez et le désirez ou en avez tiré un quelconque avantage à l'utiliser, merci de soutenir le projet soit avec de simples remerciments, ou en faisant un don qui vous permettera de faire disparaitre cet encart.\n\nSi vous avez soutenu Project64 :"
 #1202#  "Entrer/Demander un Code de Soutien"
 #1203#  "Soutenir Project64"
 #1204#  "Continuer"
