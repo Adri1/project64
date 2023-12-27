@@ -30,7 +30,7 @@
 #103#  "Démarrer l’émulation"
 #104#  "Arrêter l’émulation"
 #105#  "Choisir le répertoire des ROM…"
-#106#  "Rafraîchir la liste des ROM"
+#106#  "Rafraichir la liste des ROM"
 #107#  "ROM récentes"
 #108#  "Répertoires des ROM récentes"
 #109#  "&Quitter"
@@ -42,11 +42,11 @@
 #122#  "&Pause"
 #123#  "&Capture d’écran"
 #124#  "Limiter les FPS"
-#125#  "&Sauvegarder l’état"
+#125#  "&Sauvegarde d'état"
 #126#  "Sauvegarder sous…"
-#127#  "&Charger un état"
+#127#  "&Charger sauvegarde d'état"
 #128#  "Charger…"
-#129#  "Sauvegarder l’&état actuel"
+#129#  "Sauvegarde d’&état actuelle"
 #130#  "Cheats…"
 #131#  "Bouton GameShark (cheats)"
 #132#  "R&eprendre"
@@ -59,10 +59,10 @@
 #140#  "&Options"
 #141#  "&Plein écran"
 #142#  "&Toujours visible"
-#143#  "Configurer le plugin graphique…"
-#144#  "Configurer le plugin audio…"
-#145#  "Configurer le plugin contrôleur…"
-#146#  "Configurer le plugin RSP…"
+#143#  "Paramètres graphiques…"
+#144#  "Paramètres audio…"
+#145#  "Paramètres d'entrées…"
+#146#  "Paramètres RSP…"
 #147#  "Afficher l’utilisation du CPU"
 #148#  "&Paramètres…"
 
@@ -205,13 +205,14 @@
 #411#  "Recompileur"
 #412#  "Par défaut"
 #413#  "64DD"
+#414#  "64DD"
 
 //Plugin Dialog
 #420#  "À propos"
 #421#  " Plugin RSP (Reality Signal Processor) : "
 #422#  " Plugin vidéo (graphismes) : "
 #423#  " Plugin audio (son) : "
-#424#  " Plugin d'entées (manettes) : "
+#424#  " Plugin d'entrées (manettes) : "
 #425#  "Graphismes HLE"
 #426#  "Audio HLE"
 #427#  "** Utiliser le plugin système **"
@@ -228,7 +229,7 @@
 #448#  "Sélectionner le répertoire des sauvegardes N64 natives"
 #449#  "Sélectionner le répertoire des sauvegardes d’état"
 #450#  "Sélectionner le répertoire des captures d’écran"
-#451#  " Répertoire du pack de textures : "
+#451#  " Répertoire des packs de textures : "
 #452#  "Sélectionner le répertoire du pack de texture"
 
 //Options (general) Tab
@@ -256,7 +257,7 @@
 #482#  "Max de répertoires ROM à retenir (0-10) :"
 #483#  "répertoires"
 #484#  "Utiliser le navigateur de ROM"
-#485#  "Utiliser également les sous-répertoires"
+#485#  "Inclure les sous-répertoires"
 #486#  "Champs disponibles :"
 #487#  "Champs dans l’ordre :"
 #488#  "Ajouter ->"
@@ -282,7 +283,7 @@
 #512#  "Lancer si modifié"
 #513#  "Protéger la mémoire"
 #514#  "TLB unmapping"
-#515#  "TOujours utiliser l'interpréteur de cœur"
+#515#  "Toujours utiliser l'interpréteur de cœur"
 
 //ROM Options
 #520#  "Style de noyau CPU :"
@@ -308,6 +309,9 @@
 #5440# "Vitesse d'accès disque:"
 #5441# "Rapide"
 #5442# "Lente"
+#5443# "Espace mémoire (Connu):"
+#5444# "Espace mémoire (Inconnu):"
+#5445# "FPU register caching"
 
 #5410# "DMA non alignée"
 
@@ -358,15 +362,15 @@
 #681#  "Menu objet :"
 #682#  "Touches actuelles :"
 #683#  "Sélectionner nouveau raccourci :"
-#684#  "Actuellement assigné à:"
+#684#  "Assignement actuel :"
 #685#  "Assigner"
 #686#  "Supprimer"
-#687#  "Tout réinitialiser"
+#687#  "Tout réiniti."
 #688#  "Aucun jeu lancé"
 #689#  "Un jeu est lancé"
 #690#  "Un jeu est lancé (Fenêtré)"
 #691#  "Un jeu est lancé (Plein écran)"
-#692#  "Détecter la touche"
+#692#  "Détect. la touche"
 
 // Frame Rate Option
 #700#  "Interruptions verticales par seconde"
@@ -378,8 +382,8 @@
 #711#  "Diminuer la vitesse du jeu"
 
 //Bottom page buttons
-#720#  "Réinitialiser la page"
-#721#  "Tout réinitialiser"
+#720#  "Réinit. la page"
+#721#  "Tout réiniti."
 #722#  "Appliquer"
 #723#  "Fermer"
 
@@ -467,7 +471,7 @@
 * Support Window                                                                 *
 *********************************************************************************/
 #1200#  "Support Project64"
-#1201#  "Project64 est un émulateur open source de Nintendo 64.\n\nCelui-ci vous permet de jouer à des jeux N64 comme vous le feriez avec la vraie console.\n\nJe suis désolé de vous déranger avec cet encart, mais merci à vous de patienter quelques secondes dans le but d'apprécier le résultat de centaines d'heures de travail.\n\nSi vous le pouvez et le désirez soutenir Project64 ou en avez tiré quelque chose de son usage, merci de soutenir le projet soit avec de simples remerciments, ou votre volonter de supprimer cet encartn\n\nSi vous avez soutenu Project64 :"
+#1201#  "Project64 est un émulateur open source de Nintendo 64.\n\nIl vous permet de jouer à des jeux N64 comme vous le feriez avec la vraie console.\n\nVeuillez nous excuser de cet encart, mais vous souhaitons vous inviter à patienter quelques secondes dans le but d'apprécier le résultat de centaines d'heures de travail.\n\nSi vous le pouvez et désirez soutenir Project64 ou en avez tiré quelque chose de son usage, merci de soutenir le projet soit avec de simples remerciments, ou par simple volonté de supprimer cet encart.n\n\nSi vous avez soutenu Project64 :"
 #1202#  "Entrer/Demander un Code de Soutien"
 #1203#  "Soutenir Project64"
 #1204#  "Continuer"
@@ -481,6 +485,10 @@
 #1212#  "Demander un code"
 #1213#  "Le code a été envoyé à votre adresse email"
 #1214#  "Échec de l'envoi du code, assuez-vous que ce soit bien l'adresse email avec laquelle vous soutenez"
+
+/*** Enhancements ***/
+
+#1300#  "Améliorations"
 
 /*********************************************************************************
 * Messages                                                                       *
@@ -517,7 +525,7 @@
 #2029#  "Changer les plugins"
 #2030#  "Émulation arrêtée"
 #2031#  "Émulation démarrée"
-#2032#  "Impossible de charger l’état"
+#2032#  "Impossible de charger sauvegarde d'état"
 #2033#  "Sauvegarde d'état chargée"
 #2034#  "Sauvegarde d'état vers"
 #2035#  "Emplacement de sauvegarde d’état"
@@ -549,6 +557,10 @@
 #2062#  "La ROM IPL 64DD de développement n’a pas pu être trouvée.\nElle est nécéssaire pour jouer avec des disques 64DD de développement.\n\nVeuillez sélectionner la ROM requise dans les paramètres."
 #2063#  "Cheat erroné, échec de sa mise à jour"
 #2064#  "Cheat erroné"
+#2065#  "Échec de la lecture des octets d'identification"
+#2066#  "Fichier image invalide"
+#2067#  "Failed to allocate for rom"
+#2068#  "Échec d'ouverture de la ROM"
 
 /*********************************************************************************
 * Android                                                                        *
